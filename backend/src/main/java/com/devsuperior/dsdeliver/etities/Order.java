@@ -50,6 +50,16 @@ public class Order implements Serializable{
 		this.products = products;
 	}
 
+	public Order(Long id, String address, Double latitude, Double longitude, Instant moment,
+			OrderStatus status) {
+		this.id = id;
+		this.address = address;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.moment = moment;
+		this.status = status;
+	}
+
 	public Long getId() {
 		return id;
 	}
