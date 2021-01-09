@@ -1,4 +1,3 @@
-import { isStringLiteral } from 'typescript';
 import { formatPrice } from './helpers';
 import { Product } from './types';
 
